@@ -10,15 +10,15 @@
 #' @examples
 #' hello("Save")
 hello <- function(name) {
-  
+
   checkmate::assertCharacter(name)
 
 
 char <- nchar(name)
 greeting <- switch(
-    ifelse (char < 6, "short", "long"), 
-    short = "HEEEEllo", 
-    long = "Too long" ) 
+    ifelse (char < 8, "short", "long"),
+    short = "HEEEEo",
+    long = "Too longgggggg" )
 
 print(paste(greeting, name))
 }
