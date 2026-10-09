@@ -1,0 +1,6 @@
+# Package index
+
+## All functions
+
+- [`hello()`](https://savefonta.github.io/Goodpractices/reference/hello.md)
+  : The great hello function
