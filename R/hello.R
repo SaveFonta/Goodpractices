@@ -16,7 +16,7 @@ hello <- function(name) {
 
 char <- nchar(name)
 greeting <- switch(
-    ifelse (char < 8, "short", "long"),
+    ifelse (char < 8, "shortz", "long"),
     short = "HEEEEo",
     long = "Too longgggggg" )
 
